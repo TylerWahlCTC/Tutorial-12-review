@@ -64,7 +64,7 @@ function findKeyWords() {
 
     linkID[i] = replaceWS(keyWords[i]);
 
-    keyWordLink.setAttribute("id", "#" + linkID[i]);
+    keyWordLink.setAttribute("href", "#" + linkID[i]);
 
     keyWordListItem.append(keyWordLink);
     outlineList.append(keyWordListItem);
